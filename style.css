@@ -1,0 +1,21 @@
+body {
+  font-size: 14px;
+  font-family: Calibri;
+}
+
+#mensagem   {
+  color: red
+}
+
+#resposta {
+  color: red
+}
+
+#invertido {
+  color: red
+}
+
+.respostas {
+  color: red
+}
+

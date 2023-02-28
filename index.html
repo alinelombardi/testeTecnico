@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teste desenvolvedor - Target Sistemas</title>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="module src="dados.json"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="mostrarResultado()">
+    <h3>Teste desenvolvedor - Target Sistemas</h3>
+
+    <p>
+      2) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo
+      valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3,
+      5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde,
+      informado um número, ele calcule a sequência de Fibonacci e retorne uma
+      mensagem avisando se o número informado pertence ou não a sequência.<br />
+      IMPORTANTE: Esse número pode ser informado através de qualquer entrada de
+      sua preferência ou pode ser previamente definido no código;
+    </p>
+
+    <p>Número a verificar: 21</p>
+
+    <button onclick="fibonacci()">Exibir sequência Fibonacci</button
+    ><br /><br />
+    <div id="listaFibonacci"></div>
+    <br />
+    <div id="mensagem"></div>
+    <p>
+      3) Dado um vetor que guarda o valor de faturamento diário de uma
+      distribuidora, faça um programa, na linguagem que desejar, que calcule e
+      retorne:<br /><br />
+      • O menor valor de faturamento ocorrido em um dia do mês;<br />
+      <p class="respostas">O resultado da função é: <span id="menorValor"></span></p>
+
+      • O maior valor de faturamento ocorrido em um dia do mês;<br />
+
+      <p class="respostas">O resultado da função é: <span id="maiorValor"></span></p>
+
+      • Número de dias no mês em que o valor de faturamento diário foi superior
+      à média mensal.<br />
+      <p class="respostas">O resultado da função é: <span id="valorSuperior"></span></p>
+
+      <br />
+      IMPORTANTE:<br />
+      a) Usar o json ou xml disponível como fonte dos dados do faturamento
+      mensal;<br />
+      b) Podem existir dias sem faturamento, como nos finais de semana e
+      feriados. Estes dias devem ser ignorados no cálculo da média;<br />
+    </p>
+
+    <p>
+      4) Dado o valor de faturamento mensal de uma distribuidora, detalhado por
+      estado:
+    </p>
+
+    <ul>
+      <li>SP – R$67.836,43</li>
+      <li>RJ – R$36.678,66</li>
+      <li>MG – R$29.229,88</li>
+      <li>ES – R$27.165,48</li>
+      <li>Outros – R$19.849,53</li>
+    </ul>
+
+    <p>
+      Escreva um programa na linguagem que desejar onde calcule o percentual de
+      representação que cada estado teve dentro do valor total mensal da
+      distribuidora.
+    </p>
+
+    <button onclick="porcentagem()">Exibir porcentagem</button><br /><br />
+    <div id="resposta"></div>
+
+    <p>
+      5) Escreva um programa que inverta os caracteres de um string.<br />
+      IMPORTANTE:<br />
+      a) Essa string pode ser informada através de qualquer entrada de sua
+      preferência ou pode ser previamente definida no código;<br />
+      b) Evite usar funções prontas, como, por exemplo, reverse;<br />
+    </p>
+
+    Digite a frase de sua preferência: <input id="frase" type="text" />
+    <br /><br />
+    <button onclick="inverter()">Exibir frase invertida</button><br /><br />
+    <div id="invertido"></div>
+  </body>
+</html>
