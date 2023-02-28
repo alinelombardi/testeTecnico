@@ -2,7 +2,7 @@
 
 <br>
 <h3 align="center">
-Projeto concluído
+Projeto em andamento
 </h3>
 <h3> Teste técnico realizado para processo seletivo em vaga de estágio</h3><br>
 
